@@ -47,6 +47,17 @@ function App() {
     })
   }
 
+  const signClickHandler = e => {
+    e.preventDefault()
+    const value = e.target.innerHtml
+
+    setCalc({
+      ...calc,
+      sign: value,
+      res: !calc.res && calc.num ? calc.num : calc.res,
+    })
+  }
+
   return (
     <Wrapper>
       <Screen value={calc.num ? calc.num : calc.res} />
