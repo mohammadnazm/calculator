@@ -2,7 +2,7 @@
 
 A calculator project built with React.
 
-![Calculator Screenshot](https://i.imgur.com/O3CKScM.gif)
+![Calculator Screenshot](https://imgur.com/a/03XkrF6))
 
 ## Features
 
