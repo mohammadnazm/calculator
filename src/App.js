@@ -57,6 +57,7 @@ function App() {
   }
 
   const signClickHandler = e => {
+    console.log(!calc.num, !calc.res, calc.num, calc.sign)
     setCalc({
       ...calc,
       sign: e.target.innerHTML,
