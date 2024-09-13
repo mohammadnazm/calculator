@@ -17,9 +17,9 @@ A calculator project built with React.
 
 ## Installation
 
-1. `git clone https://github.com/mohammadnazm/weather-app.git`
+1. `git clone https://github.com/mohammadnazm/calculator.git`
 
-2. `cd weather-app
+2. `cd calculator
 
 3. `npm install`
 
